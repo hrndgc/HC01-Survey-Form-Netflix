@@ -1,0 +1,73 @@
+body {
+    /* background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/998c1c50-6aaa-4795-ab62-9190a025d529/b9883521-f439-4c16-b5eb-b1719e2fece1/ZA-en-20191203-popsignuptwoweeks-perspective_alpha_website_small.jpg"); */
+    background-image: url(./image/background.jpg);
+}
+
+#container {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 30px 100px;
+}
+
+#title {
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Bowlby One SC", cursive;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 50px;
+}
+
+span {
+    color: red
+}
+
+#subtitle {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    color: white;
+}
+
+#netflix {
+    color: white;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#Name,#Age,#Email,#Content {
+  margin-top: 15px;
+  height: 35px;
+  width: 400px;
+  padding: 10px;
+  color: white;
+}
+
+.box {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.box {
+    margin-top: 10px;
+}
+
+#submit {
+    font-size: larger;
+    margin: 16px 0px 16px 150px;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background: white;
+    color: red;
+}
